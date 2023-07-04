@@ -20,9 +20,11 @@ const Navbar = () => {
           <button className="navbarbutton">Why Dropbox?</button>
           <button className="navbarbutton">Products</button>
           <button className="navbarbutton">Solutions</button>
-          <Link to="/" className="pricingLinkTag">
-            Pricing
-          </Link>
+          <div>
+            <Link to="/" className="pricingLinkTag">
+              Pricing
+            </Link>
+          </div>
         </div>
 
         <div className="navbarRight">
@@ -41,10 +43,9 @@ const Navbar = () => {
           <Link to="/" className="getStartedLink">
             <div>
               <p className="getStartedLinkText">Get started</p>
-              
-              <img src={arrow}  alt="arrow" className="getStartedRightarrow"/>
+
+              <img src={arrow} alt="arrow" className="getStartedRightarrow" />
             </div>
-            
           </Link>
         </div>
       </div>
