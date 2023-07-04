@@ -1,0 +1,112 @@
+.navbar {
+  width: 100%;
+  height: 12px;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+}
+.companyNavbarLogo {
+  width: 12px;
+  height: 12px;
+}
+
+.navbarLinks {
+  width: 100%;
+  display: flex;
+}
+
+.homeLinks {
+  width: 11%;
+  display: flex;
+  text-decoration: none;
+}
+
+.homeLinks p {
+  padding: 0px;
+  margin: 1.5px 0px 0px 4px;
+  font-size: 6px;
+  font-weight: 700;
+  font-family: inherit;
+  color: #000000;
+  text-decoration: none;
+}
+
+.navbarmiddlecontainer {
+  width: 27%;
+  margin: 0px;
+  margin-left: 6px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbarmiddlecontainer button {
+  margin: 0px;
+  padding: 0px;
+  font-size: 5px;
+  font-weight: 200;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.pricingLinkTag {
+  margin: 0px;
+  padding: 0px;
+  font-size: 5px;
+  font-weight: 400;
+  border: none;
+  color: #000;
+  background-color: transparent;
+
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.navbarRight{
+    width: 33%;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 27%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbarRight a{
+    margin: 0px;
+    padding: 0px;
+    font-size: 5px;
+    font-weight: 400;
+    border: none;
+    color: #000;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.getStartedLink{
+    width: 35%;
+}
+.getStartedLink div{
+    height: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2869cb;
+
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.getStartedLinkText{
+    font-size: 4.5px;
+    font-weight: 600;
+    font-family: inherit;
+    color: white;
+}
+
+.getStartedRightarrow{
+    width: 4px;
+}
