@@ -2,7 +2,8 @@ import React from "react";
 import "./HomepageBody.css";
 import { Link } from "react-router-dom";
 import arrow from "../images/forward arrow.svg";
-
+// import websiteVideo from "../images/Dropbox_Homepage.mp4";
+import VideoPlayer from "./VideoPlayer";
 const HomepageBody = () => {
   return (
     <div className="homepageBodyContainer">
@@ -21,6 +22,7 @@ const HomepageBody = () => {
           <img src={arrow} alt="arrow" className="arrow" />
         </Link>
       </div>
+      <VideoPlayer />
     </div>
   );
 };

@@ -1,6 +1,6 @@
 .homepageBodyContainer {
   width: 100%;
-  height: auto;
+  height: 1400px;
   margin: 0px;
   padding: 0px;
   display: flex;
@@ -46,6 +46,7 @@
 .findyouplancontainer{
     width: 15%;
     background-color: rgb(57, 132, 255);
+    margin-bottom: 20px;
 }
 .findyouplancontainer a{
     height: 20px;
