@@ -39,7 +39,7 @@ const VideoPlayer = () => {
     // line no 40 was like this before <video ref={videoRef} loop controls> the reason i removed the control 
     // is because it was showing the controls on the video and i dont want that to happen so i removed it 
     // and it worked fine so if you want controls on the video you can add it back
-    <video ref={videoRef} loop>
+    <video ref={videoRef} loop muted="true">
       <source src={websiteVideo} type="video/mp4" />
     </video>
   );
