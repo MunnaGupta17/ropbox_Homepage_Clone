@@ -6,8 +6,8 @@ import smilePic from "../images/emoji smile.svg";
 import cloudPic from "../images/cloud done.svg";
 import shieldPic from "../images/shield.svg";
 import twinklePic from "../images/twinkle.svg";
-// import websiteVideo from "../images/Dropbox_Homepage.mp4";
-import VideoPlayer from "./VideoPlayer";
+import VideoPlayer from "./VideoPlayer.js";
+import DropboxProductsHomepage from "./DropboxProductsHomepage.js";
 const HomepageBody = () => {
   return (
     <div className="homepageBodyContainer">
@@ -78,6 +78,8 @@ const HomepageBody = () => {
           </div>
         </div>
       </div>
+
+      <DropboxProductsHomepage />
     </div>
   );
 };
