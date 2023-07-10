@@ -1,0 +1,50 @@
+.dropboxDropdownMenu{
+    width: 30%;
+    background-color: white;
+    padding: 10px  10px  10px  10px;
+    display: flex;
+    position: absolute;
+    top: 40px;
+    color: #fdfbfb;
+}
+
+.dropboxDropdownMenu div {
+    width: 50%;
+    color: #090909;
+    list-style: none;
+}
+
+.dropboxDropdownMenu div ul{
+    margin: 0;
+    padding: 0;
+}
+
+.dropboxDropdownMenu div ul li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dropboxDropdownMenu div ul li a{
+    width: 90%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding-left: 10px;
+    color: #070707;
+    font-size: 13px;
+
+}
+
+.dropboxDropdownMenu div ul li p{
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.dropboxDropdownMenu div ul li a:hover{
+    background-color: #b9acac;
+}

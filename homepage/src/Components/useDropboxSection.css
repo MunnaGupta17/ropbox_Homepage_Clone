@@ -1,0 +1,70 @@
+.areasOfWorkContainer {
+  background-color: antiquewhite;
+  width: 100%;
+  display: flex;
+}
+
+.areasOfWorkPoints {
+  width: 42%;
+  margin-left: 50px;
+  /* border: 1px solid black; */
+}
+
+.imageShowcasingPoint {
+  width: 50%;
+  border: 1px solid rgb(190, 36, 36);
+  margin-left: 80px;
+}
+
+.imageShowcasingPoint img{
+  width: 80%;
+}
+
+.Points {
+  cursor: pointer;
+  border-top: 1px solid rgb(133, 131, 131);
+  border-bottom: 1px solid rgb(133, 131, 131);
+}
+
+.pointHeadline {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.pointExplanation {
+  padding: 20px;
+}
+
+.pointExplanation p {
+  font-size: 17px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.pointHeadline p {
+  font-size: px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+.upArrow {
+  width: 15px;
+  transform: rotate(180deg);
+}
+
+.clickedUpArrow {
+  width: 15px;
+  transform: rotate(180deg);
+}
+
+.rotatedUpArrow {
+  width: 15px;
+  transform: rotate(360deg);
+}
+
+.myfilesImage{
+  width: 80%;
+}

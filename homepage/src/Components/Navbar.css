@@ -37,22 +37,33 @@
 .navbarmiddlecontainer {
   width: 27%;
   margin: 0px;
-  margin-left: 6px;
+  margin-left: 16px;
   padding: 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.whyDropboxContainer {
+  height: auto;
+}
+
 .navbarmiddlecontainer button {
+  height: 47px;
   margin: 0px;
   padding: 0px;
   font-size: 17px;
   font-weight: 200;
   color: #4a4646;
   border: none;
+  /* border: 1px solid #ef0b0b; */
   background-color: transparent;
   cursor: pointer;
+}
+
+.navbarmiddlecontainer div {
+  height: auto;
+  display: flex;
 }
 
 .pricingLinkTag {
@@ -65,49 +76,51 @@
   text-decoration: none;
 }
 
-.navbarRight{
-    width: 33%;
-    margin: 0px;
-    padding: 0px;
-    margin-left: 27%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.navbarRight {
+  width: 33%;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 29%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.navbarRight a{
-    margin: 0px;
-    padding: 0px;
-    font-size: 17px;
-    font-weight: 400;
-    border: none;
-    color: #4a4646;
-    background-color: transparent;
-    cursor: pointer;
-    text-decoration: none;
+.navbarRight a {
+  margin: 0px;
+  padding: 0px;
+  font-size: 17px;
+  font-weight: 400;
+  border: none;
+  color: #4a4646;
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: none;
 }
 
-.getStartedLink{
-    width: 35%;
+.getStartedLink {
+  width: 35%;
 }
-.getStartedLink div{
-    height: 35px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #2869cb;
+.getStartedLink div {
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2869cb;
 
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-.getStartedLinkText{
-    font-size: 17px;
-    font-weight: 600;
-    font-family: inherit;
-    color: white;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
-.getStartedRightarrow{
-    width: 20px;
+.getStartedLinkText {
+  font-size: 17px;
+  font-weight: 600;
+  font-family: inherit;
+  color: white;
 }
+
+.getStartedRightarrow {
+  width: 20px;
+}
+
+

@@ -8,6 +8,7 @@ import shieldPic from "../images/shield.svg";
 import twinklePic from "../images/twinkle.svg";
 import VideoPlayer from "./VideoPlayer.js";
 import DropboxProductsHomepage from "./DropboxProductsHomepage.js";
+import AreasOfWork from "./AreasOfWork.js";
 const HomepageBody = () => {
   return (
     <div className="homepageBodyContainer">
@@ -80,6 +81,8 @@ const HomepageBody = () => {
       </div>
 
       <DropboxProductsHomepage />
+      <AreasOfWork />
+      <div className="testing"> <h1>fooooooooooooooooooooooter</h1></div>
     </div>
   );
 };
