@@ -81,8 +81,9 @@ const HomepageBody = () => {
       </div>
 
       <DropboxProductsHomepage />
+      
+      
       <AreasOfWork />
-      <div className="testing"> <h1>fooooooooooooooooooooooter</h1></div>
     </div>
   );
 };
