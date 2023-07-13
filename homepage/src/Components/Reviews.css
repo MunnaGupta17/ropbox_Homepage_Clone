@@ -1,0 +1,41 @@
+.reviewsSectionContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reviewsContainerHeadline {
+  width: 42%;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.reviewsContainerHeadline p {
+  font-size: 40px;
+  color: white;
+  font-weight: 400;
+  font-family: "Sharp Grotesk 23", "Sharp Grotesk 23 KR",
+    "Sharp Grotesk 23 Thai", "Helvetica (Sharp Grotesk 23 Fallback)",
+    "Arial (Sharp Grotesk 23 Fallback)", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 120%;
+  margin: 0;
+  padding: 0;
+}
+
+.reviewsContainerHeadline a {
+  color: white;
+  display: block;
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", AtlasGrotesk,
+    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    margin-top: 20px;
+}
+
+.reviewsContainerHeadline a:hover {
+  text-decoration: none;
+}

@@ -38,12 +38,10 @@
 .areasOfWorkPoints {
   width: 42%;
   margin-left: 50px;
-  /* border: 1px solid black; */
 }
 
 .imageShowcasingPoint {
   width: 50%;
-  border: 1px solid rgb(190, 36, 36);
   margin-left: 80px;
 }
 
@@ -54,6 +52,9 @@
 .Points {
   cursor: pointer;
   border-top: 1px solid rgb(133, 131, 131);
+}
+
+.Points:nth-child(8){
   border-bottom: 1px solid rgb(133, 131, 131);
 }
 

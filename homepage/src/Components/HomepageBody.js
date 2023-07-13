@@ -9,6 +9,9 @@ import twinklePic from "../images/twinkle.svg";
 import VideoPlayer from "./VideoPlayer.js";
 import DropboxProductsHomepage from "./DropboxProductsHomepage.js";
 import AreasOfWork from "./AreasOfWork.js";
+import Reviews from "./Reviews.js";
+import UsesOfDropbox from "./UsesOfDropbox.js";
+
 const HomepageBody = () => {
   return (
     <div className="homepageBodyContainer">
@@ -81,9 +84,9 @@ const HomepageBody = () => {
       </div>
 
       <DropboxProductsHomepage />
-      
-      
+      <UsesOfDropbox />
       <AreasOfWork />
+      <Reviews />
     </div>
   );
 };
