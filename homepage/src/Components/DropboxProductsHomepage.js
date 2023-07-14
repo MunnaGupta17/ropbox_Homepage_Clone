@@ -68,6 +68,7 @@ const DropboxProductsHomepage = () => {
           <Link to="/register">Learn more <img src={arrow} alt="arrow" /> </Link>
         </div>
       </div>
+    
     </div>
   );
 };

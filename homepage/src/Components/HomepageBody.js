@@ -11,6 +11,7 @@ import DropboxProductsHomepage from "./DropboxProductsHomepage.js";
 import AreasOfWork from "./AreasOfWork.js";
 import Reviews from "./Reviews.js";
 import UsesOfDropbox from "./UsesOfDropbox.js";
+import DropboxSupportedTools from "./DropboxSupportedTools.js";  
 
 
 const HomepageBody = () => {
@@ -87,6 +88,7 @@ const HomepageBody = () => {
       <DropboxProductsHomepage />
       <UsesOfDropbox />
       <AreasOfWork />
+      <DropboxSupportedTools />
       <Reviews />
     </div>
   );
