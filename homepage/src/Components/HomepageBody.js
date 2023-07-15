@@ -12,7 +12,7 @@ import AreasOfWork from "./AreasOfWork.js";
 import Reviews from "./Reviews.js";
 import UsesOfDropbox from "./UsesOfDropbox.js";
 import DropboxSupportedTools from "./DropboxSupportedTools.js";  
-
+import Footer from "./Footer.js";
 
 const HomepageBody = () => {
   return (
@@ -90,6 +90,7 @@ const HomepageBody = () => {
       <AreasOfWork />
       <DropboxSupportedTools />
       <Reviews />
+      <Footer />
     </div>
   );
 };

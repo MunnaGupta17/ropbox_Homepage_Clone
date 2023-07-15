@@ -1,0 +1,82 @@
+.footerContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(11, 12, 12);
+}
+
+.websitesLinksContainer{
+    width: 83%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 equal-width columns */
+    grid-gap: 10px; /* Gap between divs */
+    padding: 15px;
+}
+
+.websitesLinksContainer div a{
+    display: block;
+    color : white;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+
+.websitesLinksContainer div h3{
+    color: white;
+}
+
+.socialMediaHandles{
+    width: 83%;
+    display: flex;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+.socialMediaHandles img{
+    width: 25px;
+    height: 25px;
+}
+
+.facebookIcon{
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+.underlineForSocialMediaHandles{
+    width: 83%;
+    margin-top: 20px;
+
+}
+
+.underlineForSocialMediaHandles hr{
+    width: 10%;
+    border: 1px solid rgb(160, 158, 158);
+    float: left;
+    
+}
+
+.languageSelector{
+    width: 83%;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.languageSelector img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.languageSelector button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 10px;
+}
