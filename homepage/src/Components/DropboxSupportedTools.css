@@ -9,6 +9,17 @@
   .containerForSupportedTools{
     width: 40%;
     text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .containerForSupportedTools a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .containerForSupportedTools a:hover{
+    text-decoration: underline;
   }
   
   .titleForSupportedToolsWithDropbox {
