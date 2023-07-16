@@ -51,8 +51,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  /* border: 11 px solid rgb(180, 11, 231); */
 }
 
 .nestedContentForTypesOfWork {
