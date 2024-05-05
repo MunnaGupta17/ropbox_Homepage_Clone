@@ -84,7 +84,7 @@ const AreasOfWork = () => {
     }
   };
 
-  // className={`upArrow ${showEx.showPointOne ? "clickedUpArrow" : ""}`}
+  // className={`upArrow ${showEx.showPointOne ? "clickedUpArrow" : ""}`} *testing purpose
 
   return (
     <div className="areasOfWorkContainer">
