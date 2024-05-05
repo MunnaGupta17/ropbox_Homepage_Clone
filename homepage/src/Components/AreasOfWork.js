@@ -81,6 +81,11 @@ const AreasOfWork = () => {
           showPointOne: false,
         }));
         break;
+        default:
+          // Handle the default case here, for instance:
+          console.log("Invalid case");
+          break;
+        
     }
   };
 
