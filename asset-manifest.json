@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ropbox_Homepage_Clone/static/css/main.7e41c31e.css",
-    "main.js": "/ropbox_Homepage_Clone/static/js/main.3d0ceefc.js",
+    "main.js": "/ropbox_Homepage_Clone/static/js/main.b7b2c0be.js",
     "static/media/Dropbox_Homepage.mp4": "/ropbox_Homepage_Clone/static/media/Dropbox_Homepage.129fa8a1a92cb30d0b70.mp4",
     "static/media/trackAnalyzeImage.svg": "/ropbox_Homepage_Clone/static/media/trackAnalyzeImage.cf0fdf56cc063a9e673574d81c0359e7.svg",
     "static/media/Murray_Bell.webp": "/ropbox_Homepage_Clone/static/media/Murray_Bell.9428b0f050ae2a4060db.webp",
@@ -37,7 +37,7 @@
     "static/media/oneBillionImg.svg": "/ropbox_Homepage_Clone/static/media/oneBillionImg.d0f175e4e3bcca5699dfbee53b8d9f88.svg",
     "static/media/cloud done.svg": "/ropbox_Homepage_Clone/static/media/cloud done.c630eefbc478bac345773a1ac3a46026.svg",
     "static/media/shield.svg": "/ropbox_Homepage_Clone/static/media/shield.347c3af80db1506dd72751ccccae22bc.svg",
-    "static/media/up_arrow.svg": "/ropbox_Homepage_Clone/static/media/up_arrow.4c6abf93e5f81056680a18aefc73d87e.svg",
+    "static/media/up_arrow.svg": "/ropbox_Homepage_Clone/static/media/up_arrow.86b10dc63f02936bb599108a492619d6.svg",
     "static/media/Passwords.svg": "/ropbox_Homepage_Clone/static/media/Passwords.920324420cf79c8240d8468c5c6bf7ff.svg",
     "static/media/Backup.svg": "/ropbox_Homepage_Clone/static/media/Backup.44d1bd5177d30239875d30eca65d571b.svg",
     "static/media/Dropbox.svg": "/ropbox_Homepage_Clone/static/media/Dropbox.5fc72a4d5a1ef2a5da0495a050965618.svg",
@@ -49,10 +49,10 @@
     "static/media/right arrow.svg": "/ropbox_Homepage_Clone/static/media/right arrow.b7fd07edd5b4b07629f8185b7f841d04.svg",
     "static/media/forward arrow.svg": "/ropbox_Homepage_Clone/static/media/forward arrow.e02bfda5c91fac8db6070158d8fcdf8b.svg",
     "main.7e41c31e.css.map": "/ropbox_Homepage_Clone/static/css/main.7e41c31e.css.map",
-    "main.3d0ceefc.js.map": "/ropbox_Homepage_Clone/static/js/main.3d0ceefc.js.map"
+    "main.b7b2c0be.js.map": "/ropbox_Homepage_Clone/static/js/main.b7b2c0be.js.map"
   },
   "entrypoints": [
     "static/css/main.7e41c31e.css",
-    "static/js/main.3d0ceefc.js"
+    "static/js/main.b7b2c0be.js"
   ]
 }
