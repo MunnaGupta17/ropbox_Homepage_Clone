@@ -13,6 +13,7 @@ const UsesOfDropbox = () => {
   return (
     <div className="usesOfDropboxContainer">
       <div className="usesOfDropboxCenterQoute">
+        {/* Dropbox */}
         <p>How will you use Dropbox?</p>
       </div>
       <div className="typesOfWorkDropbox">
