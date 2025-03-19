@@ -138,9 +138,12 @@ const Slider = () => {
       </div>
 
       <div className="slideCounterAndMoverContainer">
+        {currentSlide == 0 && <button>&lt;</button>}
         {currentSlide > 0 && <button onClick={handlePrev}>&lt;</button>}
         <p className="slideCounterForReviews">0{currentSlide + 1}/07</p>
         {currentSlide < 6 && <button onClick={handleNext}>&gt;</button>}
+        {currentSlide > 5 && <button>&gt;</button>}
+
       </div>
 
       <div className="ReferContainerUnderReviews">
